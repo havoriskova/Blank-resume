@@ -1,0 +1,52 @@
+@font-face {
+  font-family: "icomoon-CV";
+  src: url("fonts/icomoon-CV.eot?gzyr3d");
+  src: url("fonts/icomoon-CV.eot?gzyr3d#iefix") format("embedded-opentype"),
+    url("fonts/icomoon-CV.ttf?gzyr3d") format("truetype"),
+    url("fonts/icomoon-CV.woff?gzyr3d") format("woff"),
+    url("fonts/icomoon-CV.svg?gzyr3d#icomoon-CV") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="cv-"],
+[class*=" cv-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: "icomoon-CV" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.cv-phone:before {
+  content: "\e942";
+}
+.cv-envelop:before {
+  content: "\e945";
+}
+.cv-location:before {
+  content: "\e947";
+}
+.cv-display:before {
+  content: "\e956";
+}
+.cv-checkbox-checked:before {
+  content: "\ea52";
+}
+.cv-checkbox-unchecked:before {
+  content: "\ea53";
+}
+.cv-github:before {
+  content: "\eab0";
+}
+.cv-linkedin:before {
+  content: "\eac9";
+}
